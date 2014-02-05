@@ -1,0 +1,20 @@
+<html>
+<script src="bundle.js"></script>
+<body>
+<script>
+function test(file) {
+    console.log(file)
+    control.io.publish({
+        "uri": 'test/mime/' + file.type + '/' + file.name,
+        "thing": file,
+        "type": "file",
+        "versioned": true
+    })
+
+}
+    </script>
+    <input id="image-file" type="file" onchange="test(this.files[0])"/>
+
+</body>
+
+</html>

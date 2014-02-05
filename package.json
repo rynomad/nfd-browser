@@ -1,0 +1,19 @@
+{
+  "name": "NFD-js",
+  "version": "0.0.1",
+  "description": "NDN Forwarding daemon in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ndn-browser-shim": "*",
+    "workerify": "~0.2.3"
+  },
+  "browserify": {
+    "transform": "workerify"
+  },
+  "author": "Ryan Bennett",
+  "license": "MIT",
+  "devDependencies": {}
+}
