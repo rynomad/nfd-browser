@@ -8,7 +8,13 @@
   },
   "dependencies": {
     "ndn-browser-shim": "*",
-    "workerify": "~0.2.3"
+    "workerify": "~0.2.3",
+    "level-cache": "*",
+    "levelup": "*",
+    "level-sublevel": "*",
+    "level-superlevel": "*",
+    "level-js": "*",
+    "level-ttl": "*"
   },
   "browserify": {
     "transform": "workerify"
