@@ -14,7 +14,9 @@
     "level-sublevel": "*",
     "level-superlevel": "*",
     "level-js": "*",
-    "level-ttl": "*"
+    "level-ttl": "*",
+    "idb-wrapper": "*",
+    "memdown": "*"
   },
   "browserify": {
     "transform": "workerify"
